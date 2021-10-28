@@ -83,14 +83,14 @@
             <column name="store_type" type="varchar(2)"/>
         </addColumn>
     </changeSet>
-    <changeSet id="11" author="other.dev1">
-        <addColumn tableName="store">
-            <column name="item" type="varchar(20)"/>
-        </addColumn>
-    </changeSet>
-    <changeSet id="12" author="other.dev1">
+   <changeSet id="12" author="other.dev1">
         <addColumn tableName="store">
             <column name="store_type1" type="varchar(2)"/>
+        </addColumn>
+    </changeSet>
+    <changeSet id="13" author="other.dev1">
+        <addColumn tableName="store">
+            <column name="item" type="varchar(20)"/>
         </addColumn>
     </changeSet>
 </databaseChangeLog>
