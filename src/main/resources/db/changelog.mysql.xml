@@ -67,4 +67,15 @@
             <column name="countrysql_new1" type="varchar(2)"/>
         </addColumn>
     </changeSet>
+	
+	<changeSet id="9" author="your.name">
+        <createTable tableName="store">
+            <column name="store_id" type="int">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="store_name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+         </createTable>
+    </changeSet>
 </databaseChangeLog>
