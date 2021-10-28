@@ -78,4 +78,9 @@
             </column>
          </createTable>
     </changeSet>
+    <changeSet id="10" author="other.dev">
+        <addColumn tableName="store">
+            <column name="store_type" type="varchar(2)"/>
+        </addColumn>
+    </changeSet>
 </databaseChangeLog>
