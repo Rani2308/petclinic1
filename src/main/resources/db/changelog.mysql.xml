@@ -88,4 +88,9 @@
             <column name="store_type" type="varchar(2)"/>
         </dropColumn>
     </changeSet>
+    <changeSet id="12" author="other.dev1">
+        <dropColumn tableName="store">
+            <column name="store_type1" type="varchar(2)"/>
+        </dropColumn>
+    </changeSet>
    </databaseChangeLog>
