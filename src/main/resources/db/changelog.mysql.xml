@@ -88,4 +88,9 @@
             <column name="store_type1" type="varchar(2)"/>
         </addColumn>
     </changeSet>
-   </databaseChangeLog>
+    <changeSet id="11" author="other.dev1">
+        <addColumn tableName="store">
+            <column name="item" type="varchar(20)"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>
