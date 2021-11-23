@@ -93,5 +93,10 @@
             <column name="item" type="varchar(20)"/>
         </addColumn>
     </changeSet>
+    <changeSet id="14" author="other.dev2">
+        <addColumn tableName="store">
+            <column name="item_new" type="varchar(20)"/>
+        </addColumn>
+    </changeSet>
 </databaseChangeLog>
 
